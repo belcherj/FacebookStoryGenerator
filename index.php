@@ -89,7 +89,7 @@
       
       <label>Message</label>
       <textarea rows="3" id="message" style="width:100%"></textarea>
-      <p>Example: Im make a pack to eat more cookies and @[http://www.facebook.com/elina.stuzo] is holding me to it.</p>
+      <p>Example: Im make a pact to eat more cookies and @[http://www.facebook.com/elina.stuzo] is holding me to it.</p>
       <p>Do not use special characters</p>
 
       <label>Action Tag</label>
@@ -114,7 +114,8 @@
       <button id="postimagefromfb" class="btn-success">Post Photo to Timeline</button>
       
       <h3>Current Story URLs</h3>
-      <a href="userimages/200.html">200</a>
+      <a href="userimages/200.html">200</a><br />
+      <a href="userimages/201.html">200</a>
       
       <script type="text/javascript">
         $(function(){ 
