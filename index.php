@@ -70,7 +70,7 @@
           } else {
               var oauth_url = 'https://www.facebook.com/dialog/oauth/';
               oauth_url += '?client_id=349351001818181';
-              oauth_url += '&redirect_uri=' + encodeURIComponent('http://apps.facebook.com/stuzostorygenerator/');
+              oauth_url += '&redirect_uri=' + encodeURIComponent('http://apps.facebook.com/storygenerator/');
               oauth_url += '&scope=publish_actions'
               window.top.location = oauth_url;
           }
@@ -118,7 +118,7 @@
         $(function(){ 
             $("#poststory").on("click", function(event) {
             //Post Story
-            FB.api('/me/stuzostorygenerator:created?',
+            FB.api('/me/storygenerator:created?',
                 'post', 
                 { 
                   story : 'http://floating-reaches-3088.herokuapp.com/userimages/'+$('#url').attr("value")+'.html', 
@@ -142,7 +142,7 @@
         $(function(){ 
             $("#poststoryusergenerated").on("click", function(event) {
 
-            FB.api('/me/stuzostorygenerator:created?',
+            FB.api('/me/storygenerator:created?',
                 'post', 
                 { 
                   story : 'http://floating-reaches-3088.herokuapp.com/userimages/'+$('#url').attr("value")+'.html', 
