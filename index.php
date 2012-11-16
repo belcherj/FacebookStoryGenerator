@@ -80,9 +80,6 @@
 
     <div class="container">
 
-    
-
-
       <hr>
       
       <h1>FB OG Stories</h1>
@@ -99,7 +96,7 @@
       <label>Story Url</label>
       <input id="url" />
       <p>Enter the story URL.  Example: 200</p>
-      <p>If you want a new story send me an image and the following tags:</p>
+      <p>If you want a new story send <a href="mailto:Jonathan.Belcher@stuzo.com">Jon</a> or <a href="mailto:josh.skaroff@stuzo.com">Josh</a> an image and the following tags:</p>
       <ul>
         <li>Description</li>
         <li>Title</li>
@@ -115,7 +112,7 @@
       
       <h3>Current Story URLs</h3>
       <a href="userimages/200.html">200</a><br />
-      <a href="userimages/201.html">200</a>
+      <a href="userimages/201.html">201</a>
       
       <script type="text/javascript">
         $(function(){ 
