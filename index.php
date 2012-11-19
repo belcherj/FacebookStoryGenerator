@@ -235,7 +235,7 @@
                    }
 
                    FB.ui(obj, callback);
-
+          });
         });
 
 </script>
