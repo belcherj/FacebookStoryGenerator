@@ -227,7 +227,7 @@
             $("#postflashapp").on("click", function(event) {
                 var obj = {
                      method: 'feed',
-                     link: 'http://example.com/embed/'
+                     link: 'http://floating-reaches-3088.herokuapp.com/userimages/'+$('#url').attr("value")+'.html'
                    };
 
                    function callback(response) {
