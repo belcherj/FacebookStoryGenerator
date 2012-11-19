@@ -109,10 +109,13 @@
       <p>Mention/Action tags do not work with post photo</p>
       
       <button id="postimagefromfb" class="btn-success">Post Photo to Timeline</button>
+
+      <button id="postflashapp" class="btn-success">Post Flash App to Timeline</button>
       
       <h3>Current Story URLs</h3>
       <a href="userimages/200.html">200</a><br />
       <a href="userimages/201.html">201</a>
+      <a href="userimages/202.html">202 For use with Flash App</a>
       
       <script type="text/javascript">
         $(function(){ 
@@ -218,6 +221,21 @@
                     }
                 );
             });
+        });
+
+        $(function(){
+            $("#postflashapp").on("click", function(event) {
+                var obj = {
+                     method: 'feed',
+                     link: 'http://example.com/embed/'
+                   };
+
+                   function callback(response) {
+                     console.log(response);
+                   }
+
+                   FB.ui(obj, callback);
+
         });
 
 </script>
