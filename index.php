@@ -129,6 +129,7 @@
                   message : $('#message').attr("value"),
                   picture : 'http://floating-reaches-3088.herokuapp.com/userimages/'+$('#url').attr("value")+'.jpg',
                   tags : $('#actionTag').attr("value"),
+                  title: 'Test title',
                   explicitly_shared : "true"
                 }, function(response) {
                       if (!response || response.error) {
