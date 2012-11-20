@@ -114,8 +114,8 @@
       
       <h3>Current Story URLs</h3>
       <a href="userimages/200.html">200</a><br />
-      <a href="userimages/201.html">201</a></br>
-      <a href="userimages/202.html">202 For use with Flash App</a></br>
+      <a href="userimages/201.html">201</a><br />
+      <a href="userimages/202.html">202 For use with Flash App</a><br />
       <a href="userimages/203.html">203 For use with Flash App</a>
       
       <script type="text/javascript">
